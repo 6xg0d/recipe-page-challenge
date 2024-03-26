@@ -17,7 +17,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- [Solution URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/recipe-page-challenge-solution-VSorr8taBq)
 - [Live Site URL](https://6xg0d.github.io/recipe-page-challenge/)
 
 ## My process
