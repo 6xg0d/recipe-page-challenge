@@ -17,6 +17,8 @@ main {
 }
 /*RECIPE CARD*/
 .recipe-card {
+	min-width: 320px;
+	max-width: 700px;
 	width: 80%;
 	background-color: hsl(0, 0%, 100%);
 	padding: 40px;
@@ -34,6 +36,8 @@ img {
 	width: 100%;
 	height: auto;
 	border-radius: 12px;
+	aspect-ratio: 164/75;
+	object-fit: cover;
 }
 /*TITLES*/
 .titles {
@@ -58,17 +62,18 @@ h1.titles {
 .lists > li::marker {
 	color: hsl(14, 45%, 36%);
 }
-/*PREPARATION TIME LIST*/
-.preparation-time-list {
+/*PREPARATION TIME SECTION*/
+.preparation-time {
 	margin-top: 20px;
 	background-color: hsl(330, 100%, 98%);
 	padding: 25px;
 	border-radius: 12px;
 	color: hsl(30, 10%, 34%);
 }
-.preparation-time-list > h3 {
+.preparation-time > h2 {
 	color: hsl(332, 51%, 32%);
 	margin-bottom: 5px;
+	font-size: 18.71px;
 }
 /*INSTRUCTION LIST*/
 .instructions-list > li::marker {
